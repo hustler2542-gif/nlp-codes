@@ -1,0 +1,42 @@
+NLP PRACTICAL QUICK REVISION
+
+1) Preprocessing
+Tokenize -> keep valid words -> remove stop words.
+Tokenization = splitting text into tokens.
+Stop words = common words like is, the, a.
+
+2) Stemming and lemmatization
+Stemming cuts word endings and may produce a non-word.
+Lemmatization returns a dictionary base form; POS can matter.
+Porter = classic; Lancaster = aggressive; Snowball = improved Porter-family stemmer.
+
+3) Minimum Edit Distance
+Minimum insertions, deletions, substitutions to change one word into another.
+Dynamic programming table has (m+1) rows and (n+1) columns.
+
+4) N-grams
+Unigram = 1 word; bigram = 2 words; trigram = 3 words.
+Bigram probability P(w2|w1) = count(w1,w2) / count(w1).
+
+5) POS tagging
+POS = part of speech: noun, verb, adjective, adverb, etc.
+Rule-based = manually written rules.
+Statistical/probabilistic = learns likely tags from training data.
+Accuracy = correct tags / total tags * 100.
+
+6) NER and chunking
+NER finds names of people, places, organisations.
+Chunking groups words into phrases such as noun phrases (NP).
+
+7) Lesk and WordNet
+Lesk picks a word sense by comparing context words with sense definitions.
+Synonym = similar meaning; hypernym = broader category; hyponym = narrower type.
+
+8) Naive Bayes and SVM sentiment
+TF-IDF converts text into numerical features.
+Naive Bayes uses probabilities.
+SVM separates classes using a decision boundary.
+Accuracy = correct predictions / all predictions.
+
+Practical tip:
+State Aim -> Theory -> Procedure -> Output -> Conclusion.
